@@ -990,7 +990,12 @@ margin-right: 1rem;
     }
 }
 
+/*============== Responsive for Mobile ================*/
 @media only screen and (max-width: 450px) {
+    .hero-left h1{
+        font-size: 28px;
+    }
+    
     .hero-right img{
         display: none;
     }
@@ -1042,5 +1047,10 @@ margin-right: 1rem;
     .footer-right{
         order: -1;
     }
+
+    .style-switcher-icons{
+        font-size: 20px;
+    }
+    
 }
 /*===== responsive CSS End =====*/
