@@ -14,7 +14,7 @@ body.dark{
     --dark-text-color: white;
 }
 
-.title h1, .sub-section-title h3, .cv, .cv a, .skill-content, .review-content-bottom, .hero-left{
+.title h1, .sub-section-title h3, .cv, .cv a, .skill-content, .review-content-bottom, .hero-left, .about-section .details{
     color: var(--dark-text-color);
 }
 
@@ -128,7 +128,7 @@ body.dark{
 .scalling:hover{
     background-color: var(--hover-secondary);
     color: var(--hover-text-color);
-    transform: scale(1.15);
+    transform: scale(1.05);
     box-shadow: 2px 1px 3px rgb(71, 70, 70);
 }
 
@@ -375,10 +375,11 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 15px;
 }
 
 .cv p{
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -394,16 +395,13 @@ body{
     align-items: center;
 }
 
-.about-buttons button{
-    margin: 10px 5px;
-}
-
 /*=== Skills ===*/
 .skill-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .skills{
     margin: 30px 0 20px;
     flex-basis: 25%;
@@ -418,6 +416,7 @@ body{
     width: 160px;
     position: relative;
 }
+
 .skill{
     height: 160px;
     width: 160px;
